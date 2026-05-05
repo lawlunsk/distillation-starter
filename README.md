@@ -29,7 +29,7 @@ If `numpy` or Smart Connections data is missing, the scripts return structured w
 ## Setup
 
 ```bash
-git clone https://github.com/lawlunsk/distillation-starter Distillation-starter
+git clone https://github.com/lawlunsk/distillation-starter
 cd Distillation-starter
 cp config.example.yml config.yml
 ```
