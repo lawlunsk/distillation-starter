@@ -1,0 +1,48 @@
+# Copy this file to config.yml and adapt paths for your Obsidian vault.
+# Paths may be absolute or relative to vault_root.
+
+vault_root: examples/vault-fixture
+inbox_dir: Inbox
+knowledge_dir: Knowledge
+archive_dir: Archives/Inbox
+log_path: System/distillation-log.md
+indexes_dir: System/Indexes
+
+note_types:
+  concept: Concepts
+  pivot: Pivots
+  framework: Frameworks
+  howto: HowTo
+  map: Maps
+
+index_files:
+  global: Index - Global.md
+  concept: Index - Concepts.md
+  pivot: Index - Pivots.md
+  framework: Index - Frameworks.md
+  howto: Index - HowTo.md
+  map: Index - Maps.md
+
+smart_connections:
+  enabled: true
+  multi_dir: .smart-env/multi
+  model_key: Xenova/multilingual-e5-small
+  vector_dimensions: 384
+  candidate_min_similarity: 0.0
+  crossref_similarity_threshold: 0.88
+
+exclusions:
+  files: [README.md, AGENTS.md, CLAUDE.md]
+  path_contains: [Sources/, Templates/]
+
+domain_sections:
+  product: Product / Strategy
+  strategy: Product / Strategy
+  ai: AI / Writing / PKM
+  writing: AI / Writing / PKM
+  pkm: AI / Writing / PKM
+  thinking: Thinking / Psychology / Action
+  psychology: Thinking / Psychology / Action
+  learning: Learning / Notes
+  tooling: Tools / References
+

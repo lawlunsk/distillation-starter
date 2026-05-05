@@ -1,0 +1,9 @@
+"smart_sources:Knowledge/Concepts/Useful friction.md": {
+  "path": "Knowledge/Concepts/Useful friction.md",
+  "embeddings": {
+    "fixture-model": {
+      "vec": [0.98, 0.05, 0.0]
+    }
+  }
+},
+

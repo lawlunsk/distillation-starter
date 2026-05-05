@@ -1,0 +1,34 @@
+vault_root: vault-fixture
+inbox_dir: Inbox
+knowledge_dir: Knowledge
+archive_dir: Archives/Inbox
+log_path: System/distillation-log.md
+indexes_dir: System/Indexes
+
+note_types:
+  concept: Concepts
+  pivot: Pivots
+  framework: Frameworks
+  howto: HowTo
+  map: Maps
+
+index_files:
+  global: Index - Global.md
+  concept: Index - Concepts.md
+  pivot: Index - Pivots.md
+  framework: Index - Frameworks.md
+  howto: Index - HowTo.md
+  map: Index - Maps.md
+
+smart_connections:
+  enabled: true
+  multi_dir: .smart-env/multi
+  model_key: fixture-model
+  vector_dimensions: 3
+  candidate_min_similarity: 0.0
+  crossref_similarity_threshold: 0.88
+
+exclusions:
+  files: [README.md, AGENTS.md, CLAUDE.md]
+  path_contains: [Sources/, Templates/]
+
